@@ -60,7 +60,7 @@ main article:nth-child(3)::before {
     right: 0;
     opacity: 0.06;
     pointer-events: none;
-    background: url(/hulk-face.svg) no-repeat;
+    background: url(./hulk-face.svg) no-repeat;
     background-position: center;
     filter: blur(0.3rem);
 }
