@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #3b3bb1;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1, header a {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    margin: 3rem;
+}
+header a {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: #40c290;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 45px;
+    transition: filter 0.2s;
+    font-size: 1rem;
+    width: 10rem;
+}
+header a:hover {
+    filter: brightness(0.95);
+}
+main article {
+    height: 700px;
+    background: 200, 224, 230;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main article:nth-child(2) {
+    background: #baffc4;
+}
+main article:nth-child(3) {
+    position: relative;
+}
+main article:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.06;
+    pointer-events: none;
+    background: url(/hulk-face.svg) no-repeat;
+    background-position: center;
+    filter: blur(0.3rem);
+}
+main article section {
+    width: 45%;
+}
+main article section h2, main article section p {
+    font-family: Roboto, sans-serif;
+    color: #454545;
+}
+main article section h2 {
+    font-size: 3rem;
+}
+main article section p {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+main article section a {
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: #40c290;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 45px;
+    transition: filter 0.2s;
+    font-size: 1rem;
+    width: 10rem;
+}
+main article section a:hover {
+    filter: brightness(0.95);
+}
+main article section img {
+    max-height: 600px;
+    width: auto;
+}
+main article form {
+    width: 80%;
+    display: flex;
+}
+main article form div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+main article form div label {
+    font-family: Roboto, sans-serif;
+    font-size: 1.3rem;
+}
+main article form div input {
+    width: 95%;
+    height: 45px;
+    padding-left: 1rem;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}
+main article form button {
+    flex-basis: 20%;
+    height: 50px;
+    margin-top: auto;
+    border: 0;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: #40c290;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 45px;
+    transition: filter 0.2s;
+    font-size: 1rem;
+    width: 10rem;
+}
+main article form button:hover {
+    filter: brightness(0.95);
+}
